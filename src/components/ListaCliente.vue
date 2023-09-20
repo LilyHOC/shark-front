@@ -7,6 +7,7 @@
                 <th scope="col">Endereço</th>
                 <th scope="col">Email</th>
                 <th scope="col">CPF</th>
+                <th scope="col">Ações</th>
             </tr>
         </thead>
         <tbody>
@@ -16,6 +17,12 @@
                 <td>{{ cliente.endereco }}</td>
                 <td>{{ cliente.email }}</td>
                 <td>{{ cliente.cpf }}</td>
+                <td>
+                    <button type="button" class="btn btn-danger">
+                        
+                    </button>
+
+                </td>
             </tr>
             
         </tbody>
